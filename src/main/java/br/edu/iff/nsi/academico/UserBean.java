@@ -5,7 +5,6 @@ public class UserBean {
 	private String password;
 	
 	public UserBean() {
-		name = "Enter your name";
 	}
 	
 	public String getName() { return name; }
@@ -13,4 +12,8 @@ public class UserBean {
 	
 	public String getPassword() { return password; }
 	public void setPassword(String pass) { this.password = pass; }
+	
+	public String login() {
+		return "welcome";
+	}
 }

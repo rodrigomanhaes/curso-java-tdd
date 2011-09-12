@@ -11,5 +11,11 @@
     	<managed-bean-class>br.edu.iff.nsi.academico.UserBean</managed-bean-class>
     	<managed-bean-scope>session</managed-bean-scope>
     </managed-bean>
-
+    
+    <navigation-rule>
+		<navigation-case>
+			<from-outcome>login</from-outcome>
+			<to-view-id>/welcome.jsp</to-view-id>
+		</navigation-case>      
+    </navigation-rule>
 </faces-config>

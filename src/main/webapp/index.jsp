@@ -8,16 +8,10 @@
 <body>
 <h:form>
   <h3>Please enter your name and password.</h3>
-  <table>
-    <tr>
-      <td>Name:</td>
-      <td><h:inputText value="#{user.name}"/></td>
-    </tr>
-    <tr>
-      <td>Password:</td>
-      <td><h:inputSecret value="#{user.password}"/></td>
-    </tr>
-  </table>
+  <p>
+  	<h:outputLabel for="name" value="Name"/>
+  	<h:inputText id="name" value="#{user.name}"/>
+  </p>
   <p>
    <h:commandButton value="Login" action="login"/>
   </p>
