@@ -6,7 +6,7 @@ import static org.hamcrest.Matchers.containsString;
 
 import org.junit.Test;
 
-public class HelloWorldIntegrationTest {
+public class HelloWorldIntegrationTest extends FunctionalTest {
 	@Test
     public void testHelloWorld() throws Exception {
     	driver.get("http://localhost:8080/academico/index.jsf");
