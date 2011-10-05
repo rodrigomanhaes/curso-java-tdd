@@ -119,7 +119,7 @@
                 <exclude>none</exclude>
               </excludes>
               <includes>
-                <include>**/*IntegrationTest.java</include>
+                  <include>**/AcademicoSuite.java</include>
               </includes>
             </configuration>
           </execution>
